@@ -50,4 +50,5 @@ imgs_horizontal = np.hstack(imgs_horizontal)
 imgs_horizontal = Image.fromarray(imgs_horizontal)
 
 
-imgs_horizontal.save('out.jpg')
+out_image = imgs_horizontal.resize((1600, 1600))
+out_image.save('out.jpg')

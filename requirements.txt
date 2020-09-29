@@ -1,0 +1,4 @@
+Pillow==6.2.1
+requests==2.22.0
+pandas==0.25.3
+numpy==1.17.4
